@@ -1,0 +1,3 @@
+[JQL]
+jql_1 = "project = QRTC  AND type= Task  AND assignee =zengzhaoxia "
+jql_2 = "project = PILCS  AND type =bug AND reporter  = zengzhaoxia AND created >startOfWeek(-1) AND created < startOfWeek(0)"
