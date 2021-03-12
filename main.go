@@ -42,10 +42,10 @@ type JQLinfo struct {
 func main() {
 	base := "https://jira.qiniu.io"
 	tp := jira.BasicAuthTransport{
-		Username: "zengzhaoxia",
-		Password: "2wsx3edc#",
-		// Username: "qiniu-bot",
-		// Password: "t9RJKLZb0t-n",
+		Username: "username",
+		Password: "password",
+		// Username: "",
+		// Password: "",
 	}
 	jiraClient, err := jira.NewClient(tp.Client(), base)
 	if err != nil {
